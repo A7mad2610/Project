@@ -233,7 +233,7 @@ function App() {
       `,
       technologies: ['react'],
       image: delivery,
-      liveUrl: "https://a7mad2610.github.io/",
+      liveUrl: "https://a7mad2610.github.io/delivery/",
             Github:"https://github.com/A7mad2610/delivery"
 
 
@@ -245,7 +245,7 @@ function App() {
       `,
       technologies: ['react'],
       image: ecommerce,
-          liveUrl: "https://a7mad2610.github.io/",
+          liveUrl: "https://a7mad2610.github.io/ecommerce/",
             Github:"https://github.com/A7mad2610/ecommerce"
 
 

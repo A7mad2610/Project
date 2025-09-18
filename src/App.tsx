@@ -24,9 +24,19 @@ import {
 import matjaryImage from '../images/matjary.png';
 import natureImage from '../images/nature.png';
 import brandaImage from '../images/branda.png';
-import adverzaImage from '../images/adverza.png';
+import adverzaImage from '../images/adversa.png';
 import devicedockImage from '../images/devicedock.png';
 import nestworkImage from '../images/nestwork.png';
+import cruds from '../images/cruds.png';
+import delivery from '../images/delivery.png';
+import ecommerce from '../images/ecommerce.png';
+import estate from '../images/estate.png';
+import quiz from '../images/quiz.png';
+import shirty from '../images/shirty.png';
+import tictactoe from '../images/tic-tac-toe.png';
+import todolist from '../images/todolist.png';
+
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -83,12 +93,6 @@ function App() {
       category: 'Programming'
     },
     { 
-      name: 'Bootstrap Framework', 
-      icon: Smartphone, 
-      description: 'Responsive grids, components, utilities',
-      category: 'Framework'
-    },
-    { 
       name: 'SEO Optimization', 
       icon: Search, 
       description: 'On-page SEO, performance optimization',
@@ -100,6 +104,21 @@ function App() {
       description: 'Mobile-first approach, cross-browser compatibility',
       category: 'Design'
     }
+    ,
+    { 
+      name: 'React ', 
+      icon: Code2, 
+      description: 'Component-based library for building interactive user interfaces',
+      category: 'Framework'
+    }
+    ,
+    { 
+      name: 'Tailwind CSS', 
+      icon: Palette, 
+  description: 'Utility-first CSS framework for building modern, responsive UIs',
+      category: 'Framework'
+    }
+    ,
   ];
 
   const projects = [
@@ -110,6 +129,8 @@ function App() {
       image: matjaryImage,
       technologies: ['WordPress', 'WooCommerce', 'Elementor ', 'Custom CSS'],
       liveUrl: 'https://dev-matjariy.pantheonsite.io/',
+            Github:""
+
 
     },
     {
@@ -119,6 +140,8 @@ function App() {
       image: natureImage,
       technologies: ['WordPress', 'Custom Theme', 'Bootstrap', 'JavaScript'],
       liveUrl: 'https://dev-frproject.pantheonsite.io/',
+            Github:""
+
 
     },
     {
@@ -128,6 +151,8 @@ function App() {
       image: brandaImage,
       technologies: ['WordPress', 'Custom CSS', 'jQuery'],
       liveUrl: 'https://dev-branda.pantheonsite.io/',
+            Github:""
+
 
     },
     {
@@ -137,6 +162,8 @@ function App() {
       image: adverzaImage,
       technologies: ['WordPress', 'Elementor', 'Contact Form 7', 'SEO'],
       liveUrl: 'https://dev-adverza.pantheonsite.io/',
+            Github:""
+
 
     },
     {
@@ -146,6 +173,8 @@ function App() {
       image: devicedockImage,
       technologies: ['WordPress', 'Custom Theme'],
       liveUrl: 'https://dev-devicedock.pantheonsite.io/',
+            Github:""
+
 
     },
     {
@@ -155,6 +184,107 @@ function App() {
       image: nestworkImage,
       technologies: ['WordPress', 'WooCommerce'],
       liveUrl: 'https://dev-nestwork.pantheonsite.io/',
+            Github:""
+
+
+    }
+    ,
+    {
+      id: 7,
+      title: "Shirty",
+      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      `,
+      technologies: ['html', 'css','js'],
+      image: shirty,
+      liveUrl: "https://a7mad2610.github.io/shirty/",
+            Github:"https://github.com/A7mad2610/shirty"
+
+
+    },
+    {
+      id: 8,
+      title: "CRUDS",
+      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      `,
+      technologies: ['html', 'css','js'],
+      image: cruds,
+      liveUrl: "https://a7mad2610.github.io/cruds/",
+            Github:"https://github.com/A7mad2610/cruds"
+
+
+    },
+    {
+      id: 9,
+      title: "ToDo List",
+      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      `,
+      technologies: ['html', 'css','js'],
+      image: todolist,
+      liveUrl: "https://example.com/product/pizza",
+            Github:"https://github.com/A7mad2610/estate"
+
+
+    },
+    
+    {
+      id: 10,
+      title: "Delivery",
+      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      `,
+      technologies: ['react'],
+      image: delivery,
+      liveUrl: "https://a7mad2610.github.io/",
+            Github:"https://github.com/A7mad2610/delivery"
+
+
+    },
+        {
+      id: 11,
+      title: "E-commerce",
+      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      `,
+      technologies: ['react'],
+      image: ecommerce,
+          liveUrl: "https://example.com/product/pizza",
+            Github:"https://github.com/A7mad2610/estate"
+
+
+    },
+        {
+      id: 12,
+      title: "Estate",
+      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      `,
+      technologies: ['react'],
+      image: estate,
+        liveUrl: "https://a7mad2610.github.io/estate/",
+      Github:"https://github.com/A7mad2610/estate"
+
+    },
+    
+        {
+      id: 13,
+      title: "Quiz",
+      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      `,
+      technologies: ['react'],
+      image: quiz,
+          liveUrl: "https://a7mad2610.github.io/quiz/",
+            Github:"https://github.com/A7mad2610/quiz"
+
+
+    },
+    
+        {
+      id: 14,
+      title: "Tic-Tac-Toe",
+      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      `,
+      technologies: ['react'],
+      image: tictactoe,
+          liveUrl: "https://a7mad2610.github.io/tic-tac-toe/",
+            Github:"https://github.com/A7mad2610/tic-tac-toe"
+
 
     }
   ];
@@ -429,7 +559,7 @@ function App() {
   Live Demo
 </button>
 
-                      <button className="px-4 py-2 border border-gray-600 text-gray-300 rounded-lg text-sm font-medium hover:border-blue-500 hover:text-blue-400 transition-colors flex items-center justify-center">
+                      <button onClick={() => window.open(project.Github, '_blank')}  className="px-4 py-2 border border-gray-600 text-gray-300 rounded-lg text-sm font-medium hover:border-blue-500 hover:text-blue-400 transition-colors flex items-center justify-center">
                         <Github size={16} />
                       </button>
                     </div>

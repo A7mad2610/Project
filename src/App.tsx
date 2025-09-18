@@ -146,7 +146,7 @@ function App() {
     },
     {
       id: 3,
-      title: ' Electronics Store',
+      title: ' Electronics Store ',
       description: 'An online tech store offering the latest smartphones, headphones, and smart gadgets at great prices.',
       image: brandaImage,
       technologies: ['WordPress', 'Custom CSS', 'jQuery'],
@@ -192,7 +192,7 @@ function App() {
     {
       id: 7,
       title: "Shirty",
-      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      description: `Responsive front-end e-commerce website with product catalog and cart UI.
       `,
       technologies: ['html', 'css','js'],
       image: shirty,
@@ -204,7 +204,7 @@ function App() {
     {
       id: 8,
       title: "CRUDS",
-      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      description: `Simple front-end CRUD app with clean UI for managing data.
       `,
       technologies: ['html', 'css','js'],
       image: cruds,
@@ -216,12 +216,12 @@ function App() {
     {
       id: 9,
       title: "ToDo List",
-      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      description: `Simple front-end ToDo app with add and delete tasks.
       `,
       technologies: ['html', 'css','js'],
       image: todolist,
-      liveUrl: "https://example.com/product/pizza",
-            Github:"https://github.com/A7mad2610/estate"
+      liveUrl: "https://a7mad2610.github.io/todolist/",
+            Github:"https://github.com/A7mad2610/todolist"
 
 
     },
@@ -229,7 +229,7 @@ function App() {
     {
       id: 10,
       title: "Delivery",
-      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      description: `Responsive front-end food delivery website.
       `,
       technologies: ['react'],
       image: delivery,
@@ -241,19 +241,19 @@ function App() {
         {
       id: 11,
       title: "E-commerce",
-      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      description: `Responsive front-end e-commerce website with product catalog and cart UI.
       `,
       technologies: ['react'],
       image: ecommerce,
-          liveUrl: "https://example.com/product/pizza",
-            Github:"https://github.com/A7mad2610/estate"
+          liveUrl: "https://a7mad2610.github.io/",
+            Github:"https://github.com/A7mad2610/ecommerce"
 
 
     },
         {
       id: 12,
       title: "Estate",
-      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      description: `Responsive front-end real estate website.
       `,
       technologies: ['react'],
       image: estate,
@@ -265,7 +265,7 @@ function App() {
         {
       id: 13,
       title: "Quiz",
-      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      description: `"Simple quiz website with multiple-choice questions."
       `,
       technologies: ['react'],
       image: quiz,
@@ -278,7 +278,7 @@ function App() {
         {
       id: 14,
       title: "Tic-Tac-Toe",
-      description: `Lorem, ipsum dolor sit amet  adipisicing elit. Aliquid
+      description: `Classic Tic-Tac-Toe front-end game.
       `,
       technologies: ['react'],
       image: tictactoe,

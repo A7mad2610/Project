@@ -294,7 +294,7 @@ description: `Medical appointment booking app built with React.`,
       
       technologies: ['react'],
       image: appointment,
-          liveUrl: "https://a7mad2610.github.io/",
+          liveUrl: "https://a7mad2610.github.io/hotel-booking/",
             Github:"https://github.com/A7mad2610/hotel-booking"
 
 

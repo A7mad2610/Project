@@ -292,8 +292,8 @@ function App() {
       title: "Booking Appointment",
 description: `Medical appointment booking app built with React.`,
       
-      technologiesappointment: ['react'],
-      image: tictactoe,
+      technologies: ['react'],
+      image: appointment,
           liveUrl: "https://a7mad2610.github.io/",
             Github:"https://github.com/A7mad2610/hotel-booking"
 
